@@ -1,0 +1,43 @@
+[{
+		"name": "scheduler2",
+		"timeInterval": "00:0:05",
+		"type": {
+			"API": true,
+			"sendEmail": false
+		},
+		"API": {
+			"uri": "https://anapioficeandfire.com/api/characters/583",
+			"method": "GET",
+			"header": null
+		}
+	},
+	{
+		"name": "scheduler1",
+		"timeInterval": "00:0:15",
+		"type": {
+			"API": true,
+			"sendEmail": false
+		},
+		"API": {
+			"uri": "https://www.metaweather.com/api/location/12586539/",
+			"method": "GET",
+			"header": null
+		}
+	},
+	{
+		"name": "scheduler3",
+		"timeInterval": "00:00:30",
+		"type": {
+			"API": true,
+			"sendEmail": false
+		},
+		"API": {
+			"uri": "https://api.jsonbin.io/b",
+			"method": "POST",
+			"header": {
+				"Content-type": "application/json"
+			},
+			"body": "{\"Sample\": \"Hello World\"}"
+		}
+	}
+]
