@@ -1,4 +1,4 @@
-# silkSync
+# silkScheduler
 
 A nodejs project to make API calls or send e-mails on specified time intervals. It also logs all the errors on the local machine as well as on loggly. Verbose logging is not implemented
 
@@ -130,4 +130,4 @@ Below configuration will make an API call and send the result via e-mail every t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
