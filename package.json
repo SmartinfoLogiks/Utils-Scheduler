@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "lodash": ">=4.17.13",
     "chokidar": "^2.1.0",
     "fs": "0.0.1-security",
     "nodemailer": "^5.1.1",
