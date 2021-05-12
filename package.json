@@ -7,7 +7,7 @@
     "chokidar": "^3.3.1",
     "fs": "0.0.1-security",
     "lodash": ">=4.17.13",
-    "nodemailer": "^5.1.1",
+    "nodemailer": "^6.4.16",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "winston": "^3.2.1",
